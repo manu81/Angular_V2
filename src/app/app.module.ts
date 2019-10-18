@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { ProductsComponent } from './products.component';
+import { ProductComponent } from './product.component';
 import {RatingComponent} from './rating.component';
 
 
@@ -12,6 +13,7 @@ import {RatingComponent} from './rating.component';
   declarations: [
     AppComponent,
     ProductsComponent,
+    ProductComponent,
     RatingComponent
   ],
   imports: [
